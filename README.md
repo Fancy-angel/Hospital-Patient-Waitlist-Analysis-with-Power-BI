@@ -23,15 +23,15 @@ The scope of data is from January 2018 to March 2021; each year represents one C
 Inpatients are further classified as Inpatients or Day Cases.
 Here are some important definitions for the fields in our datasets:
 
-# >Outpatient is a patient who comes in only for a short appointment or consultation.
-# >Inpatient is a patient who stays in the hospital for one or more nights.
-# >Day Case is a patient who comes in for a more involved procedure than an Outpatient, but can go home the same day.
-# >Archive_Date is the date of record.
-# >Specialty_HIPE is the specialty code.
-# >Specialty is the medical specialty being waited for.
-# >Case_Type refers to the type of patient.
-# >Age_Profile is the age group of the person on the waitlist.
-# >Time_Bands are the waitlist time intervals.
+> Outpatient is a patient who comes in only for a short appointment or consultation.
+> Inpatient is a patient who stays in the hospital for one or more nights.
+> Day Case is a patient who comes in for a more involved procedure than an Outpatient, but can go home the same day.
+> Archive_Date is the date of record.
+> Specialty_HIPE is the specialty code.
+> Specialty is the medical specialty being waited for.
+> Case_Type refers to the type of patient.
+> Age_Profile is the age group of the person on the waitlist.
+> Time_Bands are the waitlist time intervals.
 ![image](https://github.com/user-attachments/assets/b408c845-51b2-476b-a21e-e19ef48be33a)
 # 3. Preparing the Data
 There are 8 patient waitlist files in total, corresponding to the years 2018 to 2021. Taking a cursory look at the datasets, we can see that all four of the inpatient files have the same structure; the four outpatient files also have the same structure. This means that we can append the four files for each patient type using Power BI.
